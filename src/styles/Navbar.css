@@ -1,0 +1,31 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-name {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--default-black, #0b0d17);
+}
+
+.navbar-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar-container Link {
+  color: var(--text-gray-900, #18191f);
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
