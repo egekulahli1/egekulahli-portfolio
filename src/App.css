@@ -1,8 +1,12 @@
-
+@media (max-width: 1920px) and (min-width: 1440px){
 .app-container{
     display: flex;
     flex-direction: column;
     background-color:  #E9F2F5;
-    padding: 24px 165px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 165px;
+    padding-right: 165px;
     
+}
 }

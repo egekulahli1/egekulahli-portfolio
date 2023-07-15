@@ -1,0 +1,77 @@
+@media (max-width: 1920px) and (min-width: 1440px) {
+  .project-list {
+    margin-right: -165px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-list-item-image img {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .project-button:hover {
+    background-color: #e9f2f5;
+    color: #18191f;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: calc(0.5s);
+  }
+  #project2 {
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+
+  #project3 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 0px 0px;
+  }
+  .project-list-item {
+    display: flex;
+
+    align-items: center;
+    gap: 30px;
+  }
+  .project-list-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .project-list-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .project-list-text-title {
+    color: var(--text-gray-900, #18191f);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .project-list-item-subtitle {
+    color: var(--text-gray-900, #18191f);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .project-list-item-description {
+    color: var(--text-gray-900, #18191f);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}

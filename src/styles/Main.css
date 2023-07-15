@@ -1,64 +1,66 @@
-@media (max-width: 1920px) and (min-width: 1024px){
-.main-container {
-  display: flex;
-  padding: 160px 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-  height: 100vh;
-}
+@media (max-width: 1920px) and (min-width: 1440px) {
+  .main-container {
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    
+  
+  }
 
-.main-title {
-  color: var(--text-gray-900, #18191f);
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 98px;
-}
-.main-subtitle {
-  color: var(--text-gray-900, #18191f);
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-}
+  .main-title {
+    color: var(--text-gray-900, #18191f);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 98px;
+  }
+  .main-subtitle {
+    color: var(--text-gray-900, #18191f);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
 
-.main-contact-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 32px;
-}
-.main-linkedin-button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-  color: var(--text-gray-900, #18191f);
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-.main-mail-container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.main-mail-container-text {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.main-mail-container-text a{
+  .main-contact-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .main-linkedin-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     text-decoration: none;
-    color: #1D34BA;
-}
+    color: var(--text-gray-900, #18191f);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .main-mail-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .main-mail-container-text {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .main-mail-container-text a {
+    text-decoration: none;
+    color: #1d34ba;
+  }
 }
