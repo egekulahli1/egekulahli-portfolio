@@ -1,15 +1,39 @@
 import "../styles/Main.css";
 import { BsArrowUpRight, BsChatLeft } from "react-icons/bs";
-
+import { Element } from "react-scroll";
 function Main() {
   return (
-    <div className="main-container">
+    <Element name="homeScroll" className="main-container">
       <span className="main-title">Hello.</span>
       <span className="main-subtitle">
         I'm Ege, a passionate full stack developer who recently completed an
         intensive bootcamp, looking for entry-level roles in the area. Excited
         to showcase my skills and projects, I'm committed to continuous growth
         in the world of web development.
+      </span>
+      <span className="main-subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+        ullamcorper, odio vitae aliquam ultricies, nunc nisl ultricies nunc, eu
+        aliquet nisl nisl vitae nunc. Donec ullamcorper, odio vitae aliquam
+        ultricies, nunc nisl ultricies nunc, eu aliquet nisl nisl vitae nunc.
+        Donec ullamcorper, odio vitae aliquam ultricies, nunc nisl ultricies
+        nunc, eu aliquet nisl nisl vitae nunc. Donec ullamcorper, odio vitae
+        aliquam ultricies, nunc nisl ultricies nunc, eu aliquet nisl nisl vitae
+        nunc. Donec ullamcorper, odio vitae aliquam ultricies, nunc nisl
+        ultricies nunc, eu aliquet nisl nisl vitae nunc. Donec ullamcorper,
+        odio vitae aliquam ultricies, nunc nisl ultricies nunc, eu aliquet nisl
+        nisl vitae nunc. Donec ullamcorper, odio vitae aliquam ultricies, nunc
+        nisl ultricies nunc, eu aliquet nisl nisl vitae nunc.
+
+
+      </span>
+      <span className="main-subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+        ullamcorper, odio vitae aliquam ultricies, nunc nisl ultricies nunc, eu
+        aliquet nisl nisl vitae nunc. Donec ullamcorper, odio vitae aliquam
+        ultricies, nunc nisl ultricies nunc, eu aliquet nisl nisl vitae nunc.
+        Donec ullamcorper, odio vitae aliquam ultricies, nunc nisl ultricies
+        nunc, eu aliquet nisl nisl vitae nunc.
       </span>
       <div className="main-contact-container">
         <a
@@ -35,7 +59,7 @@ function Main() {
             </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }
 
