@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="navbar-wrapper">
       <div className="navbar-container">
-        <span className="navbar-name">Ege Külahlı</span>
+        <Link id="nav-button" to="homeScroll" smooth={true} duration={1000}><span className="navbar-name">Ege Külahlı</span></Link>
         <div className="navbar-link-container">
           <Link id="nav-button" to="homeScroll" smooth={true} duration={1000}>
             Home
