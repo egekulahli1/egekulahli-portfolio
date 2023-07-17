@@ -46,3 +46,52 @@
     line-height: 24px;
   }
 }
+
+@media (max-width: 3840px) and (min-width: 1921px) {
+  .footer-wrapper {
+    border-top: 1px solid var(--default-black, #0b0d17);
+    background: var(--text-gray-900, #18191f);
+  }
+  .footer-container {
+    display: flex;
+    padding: 240px 480px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  .footer-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .footer-title {
+    color: var(--text-gray-100, #f4f5f7);
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height:84px;
+  }
+  .footer-button {
+    display: flex;
+    padding: 15px 40px;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #3f5afd;
+    background: #3f5afd;
+    border-style: solid;
+  }
+
+
+  .footer-button-text {
+    color: var(--default-white, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
