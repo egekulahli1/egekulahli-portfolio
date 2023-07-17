@@ -14,7 +14,8 @@ code {
     monospace;
 }
 html {
-  height: 100%;
+  width: 100%;
+  
   background-color:  #E9F2F5;
   display: flex;
   justify-content: center;

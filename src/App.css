@@ -2,11 +2,11 @@
 .app-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color:  #E9F2F5;
     padding-top: 24px;
     padding-bottom: 24px;
-    padding-left: 165px;
-    padding-right: 165px;
+    
     
 }
 }
