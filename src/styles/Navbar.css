@@ -29,7 +29,7 @@
   gap: 32px;
 }
 
-.navbar-link-container Link {
+#nav-button {
   color: var(--text-gray-900, #18191f);
 
   font-family: 'IBM Plex Sans', sans-serif;
@@ -53,4 +53,115 @@
   transform: scale(1.2);
 }
 
+}
+
+@media (min-width:1921px) and (max-width: 3840px) {
+  .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--default-white, #ffffff);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .navbar-name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    color: var(--default-black, #0b0d17);
+  }
+  
+  .navbar-link-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+  }
+  
+  #nav-button {
+    color: var(--text-gray-900, #18191f);
+  
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  
+  
+  #nav-button:hover {
+    color: var(--text-gray-900, #22232a);
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: calc(var(--transition-duration) * 1.5);
+  }
+  
+  #nav-button::content {
+    color: var(--text-gray-900, #22232a);
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+}
+@media (min-width:1024px) and (max-width: 1439px) {
+  .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--default-white, #ffffff);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .navbar-name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--default-black, #0b0d17);
+  }
+  
+  .navbar-link-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .navbar-link-container Link {
+    color: var(--text-gray-900, #18191f);
+  
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  
+  #nav-button:hover {
+    color: var(--text-gray-900, #22232a);
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: calc(var(--transition-duration) * 1.5);
+  }
+  
+  #nav-button::content {
+    color: var(--text-gray-900, #22232a);
+    cursor: pointer;
+    transform: scale(1.2);
+  }
 }

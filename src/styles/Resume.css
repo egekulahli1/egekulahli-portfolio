@@ -73,3 +73,78 @@
     line-height: 32px;
   }
 }
+@media (max-width: 3840px) and (min-width: 1921px) {
+  .resume-wrapper {
+    background: var(--text-gray-900, #18191f);
+  }
+  .resume-container {
+    display: flex;
+    padding: 140px 280px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+  }
+
+  .resume-main-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 12px;
+  }
+  .resume-main-title {
+    color: var(--text-gray-100, #f4f5f7);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+  }
+
+  .resume-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+  }
+  .resume-item-date {
+    color: var(--text-gray-100, #f4f5f7);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .resume-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+  }
+  .resume-item-job-title {
+    color: var(--text-gray-100, #f4f5f7);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+  }
+  .resume-item-company {
+    color: var(--text-gray-700, #969bab);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .resume-item-description {
+    color: var(--text-gray-300, #d9dbe1);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+  }
+}

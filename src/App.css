@@ -1,13 +1,23 @@
-@media (max-width: 1920px) and (min-width: 1440px){
-.app-container{
+@media (max-width: 1920px) and (min-width: 1440px) {
+  .app-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:  #E9F2F5;
+    background-color: #e9f2f5;
     padding-top: 24px;
     padding-bottom: 24px;
     width: 100%;
-    
-    
+  }
 }
+
+@media (min-width: 1921px) and (max-width: 3840px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e9f2f5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+  }
 }
