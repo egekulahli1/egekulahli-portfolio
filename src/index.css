@@ -14,7 +14,7 @@ code {
     monospace;
 }
 html {
-  width: 100%;
+  
   
   background-color:  #E9F2F5;
   display: flex;
@@ -23,7 +23,7 @@ html {
 #root {
   background-color:  #E9F2F5;
   height: 100%;
-  max-width: 1440px;
+  
 }
 
 body {

@@ -1,0 +1,48 @@
+@media (max-width: 1920px) and (min-width: 1440px) {
+  .footer-wrapper {
+    border-top: 1px solid var(--default-black, #0b0d17);
+    background: var(--text-gray-900, #18191f);
+  }
+  .footer-container {
+    display: flex;
+    padding: 140px 355px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .footer-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .footer-title {
+    color: var(--text-gray-100, #f4f5f7);
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+  }
+  .footer-button {
+    display: flex;
+    padding: 12px 32px;
+    align-items: center;
+    border-radius: 6px;
+    border-color: #3f5afd;
+    background: #3f5afd;
+    border-style: solid;
+  }
+
+
+  .footer-button-text {
+    color: var(--default-white, #fff);
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}

@@ -7,7 +7,6 @@
   background-color: var(--default-white, #ffffff);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 16px 165px;
-  padding-right: 330px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,13 +43,14 @@
 #nav-button:hover {
   color: var(--text-gray-900, #22232a);
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition: calc(var(--transition-duration) * 1.5);
 }
 
 #nav-button::content {
   color: var(--text-gray-900, #22232a);
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 }
